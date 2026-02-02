@@ -1,6 +1,5 @@
 import processing.core.PApplet;
 
-
 class Point {
     int x, y;
 
@@ -8,6 +7,7 @@ class Point {
         this.x = x;
         this.y = y;
     }
+}
 
 
 public class LineRasterizerTest extends PApplet {
@@ -117,3 +117,4 @@ public class LineRasterizerTest extends PApplet {
         PApplet.main("LineRasterizerTest");
     }
 }
+
